@@ -1,7 +1,5 @@
 {
     "name": "Python 3",
     "image": "mcr.microsoft.com/devcontainers/python:3-3.14-trixie",
-    "features": {
-        "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
-    }
+    "postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash"
 }
